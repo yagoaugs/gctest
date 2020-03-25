@@ -1,2 +1,0 @@
-/* Quantos usuários únicos jogaram em fevereiro após o dia 06/02/2020? */
-SELECT COUNT(players.player_id) FROM players LEFT JOIN player_monthly_stats ON players.player_id = player_monthly_stats.player_id WHERE players.player_id IS NULL
