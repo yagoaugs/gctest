@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT player_id) FROM matchmaking_stats_summary WHERE updated_at >= '2020-02-03'
